@@ -1,0 +1,83 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('assignment/mid project/adeel.jpg');
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+  }
+  
+  .top-bar nav ul {
+    list-style: none;
+  }
+  
+  .top-bar nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .top-bar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .banner {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .banner h1 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .login-form button {
+    background-color: #ff5500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #e24400;
+  }
